@@ -3493,7 +3493,7 @@ GovObject.prototype.fromString = function(string) {
 };
 
 /**
- * Retrieve a hexa string that can be used with dashd's CLI interface
+ * Retrieve a hexa string that can be used with monoecid's CLI interface
  *
  * @param {Object} opts allows to skip certain tests. {@see Transaction#serialize}
  * @return {string}
@@ -3621,7 +3621,7 @@ Proposal.prototype.dataHex = function() {
         url: this.url
     };
 
-    // screwy data shims 'til we can fix this on dashd
+    // screwy data shims 'til we can fix this on monoecid
     var inner = ['proposal', _govObj];
     var outer = [inner];
 
@@ -5049,10 +5049,10 @@ addNetwork({
   xpubkey: 0x488b21e,    // 'xpub' (Bitcoin Default)
   xprivkey: 0x488ade4,   // 'xprv' (Bitcoin Default)
   networkMagic: 0xbf0c6bbd,
-  port: 9999,
+  port: 24157,
   dnsSeeds: [
     'dnsseed.darkcoin.io',
-    'dnsseed.dashdot.io',
+    'dnsseed.monoecidot.io',
     'dnsseed.masternode.io',
     'dnsseed.yoyae.io'
   ]
@@ -5087,7 +5087,7 @@ var TESTNET = {
   NETWORK_MAGIC: BufferUtil.integerAsBuffer(0xcee2caff),
   DNS_SEEDS: [
     'testnet-seed.darkcoin.io',
-    'testnet-seed.dashdot.io',
+    'testnet-seed.monoecidot.io',
     'test.dnsseed.masternode.io'
   ]
 };
