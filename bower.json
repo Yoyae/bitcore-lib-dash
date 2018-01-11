@@ -1,17 +1,17 @@
 {
-  "name": "bitcore-lib-dash",
-  "main": "./bitcore-lib-dash.min.js",
+  "name": "bitcore-lib-monoeci",
+  "main": "./bitcore-lib-monoeci.min.js",
   "version": "0.15.2",
-  "homepage": "https://github.com/dashevo/bitcore-lib-dash",
+  "homepage": "https://github.com/yoyae/bitcore-lib-monoeci",
   "authors": [
-    "Dash", "BitPay, Inc."
+    "Monoeci", "BitPay, Inc."
   ],
-  "description": "A pure, powerful core for your dash project.",
+  "description": "A pure, powerful core for your monoeci project.",
   "moduleType": [
     "globals"
   ],
   "keywords": [
-    "dash",
+    "monoeci",
     "bitcoin",
     "bitcore",
     "btc",
