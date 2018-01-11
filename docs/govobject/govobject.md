@@ -64,7 +64,7 @@ var jsonProposal = {
   payment_address:'yXGeNPQXYFXhLAN1ZKrAjxzzBnZ2JZNKnh',
   payment_amount:10,
   type:1,//In this case, it will cast a proposal
-  url:"http://www.monoeci.org/proposal/first_proposal"
+  url:"http://www.monoeci.io/proposal/first_proposal"
 };
 
 //Will instantiate the govObject given the json passed as arg for fromObject
@@ -113,9 +113,9 @@ fromString.inspect();
 You could shallowcopy a first govObj into a second one
 
 ```javascript
-proposal.url="http://monoeci.org/badUrl"
+proposal.url="http://monoeci.io/badUrl"
 var shallowCopyProposal = proposal.shallowCopy();
-proposal.url="http://monoeci.org/fixedUrl"
+proposal.url="http://monoeci.io/fixedUrl"
 
 console.log(proposal.url!==shallowCopyProposal.url)//return true as it's a copy
 console.log(proposal!==shallowCopyProposal)//return true
@@ -146,7 +146,7 @@ var jsonProposal = {
   payment_address:'yXGeNPQXYFXhLAN1ZKrAjxzzBnZ2JZNKnh',
   payment_amount:10,
   type:1,
-  url:"http://www.monoeci.org"
+  url:"http://www.monoeci.io"
 };
 
 var proposal = new Proposal();

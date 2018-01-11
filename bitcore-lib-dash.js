@@ -66520,7 +66520,7 @@ module.exports={
     },
     {
       "name": "Jon Kindel",
-      "email": "jon@monoeci.org"
+      "email": "jon@dash.com"
     },
     {
       "name": "Alex Werner",
