@@ -15,7 +15,7 @@ To get started, just `npm install bitcore` or `bower install bitcore`.
 * [Private Keys](privatekey.md) and [Public Keys](publickey.md)
 * [Hierarchically-derived Private and Public Keys](hierarchical.md)
 
-## DASH Governance Objects
+## Monoeci Governance Objects
 * [Governance Object / Proposal](govobject/govobject.md)
 
 ## Payment Handling
@@ -37,7 +37,7 @@ To get started, just `npm install bitcore` or `bower install bitcore`.
 ## Modules
 
 Some functionality is implemented as a module that can be installed separately:
-
+TODO
 * [Payment Protocol Support](https://github.com/bitpay/bitcore-payment-protocol)
 * [Peer to Peer Networking](https://github.com/bitpay/bitcore-p2p)
 * [Bitcoin Core JSON-RPC](https://github.com/bitpay/bitcoind-rpc)
