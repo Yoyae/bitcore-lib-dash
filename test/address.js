@@ -68,25 +68,25 @@ describe('Address', function() {
 
   // livenet valid
   var PKHLivenet = [
-    'XfcbSaK1dtEe6GmNRE5pMS3WYpoJ2D1BDm',
-    'XjnkiGYQkC3bbAzvDjP7jkNouHCHNRr3ug',
-    'XmWSeuzXVq1mb6GtyTXkYT3UgLo5uVR7XG',
-    'XtfsoT5X39fbxyH4h8VJoQ8CVyLjojjUST',
-    '    XtfsoT5X39fbxyH4h8VJoQ8CVyLjojjUST   \t\n'
+    'MPXutNYGrLgcfcGD3hGg1V77Na6RgHhSsm',
+    'MAx9AYSUU1z9Zb2V6Dc3A1oiCuUw5wQfXL',
+    'MEfGoryKAfVp1UwGseHmfWUtWkkYZUJ9fC',
+    'MATg9dyLBWa9AiPHaqUGJjXRUdZwgzUVVd',
+    '    MRCXoJtqEnwGwBt1h9DvC1cJJnFNuGSZcQ   \t\n'
   ];
 
   // livenet p2sh
   var P2SHLivenet = [
-    '7UkJidhNjEPJCQnCTXeaJKbJmL4JuyV66w',
-    '7UeWxgzStiyUzmc7YNAbwcktuhCCoEYw9q',
-    '7YASvdCDn3r8cnKMGv9bA3qBYA7krjPKSK',
-    '7qTBMtjvjtpmqA7UZ581vTwPTFUF7LUqyw',
-    '\t \n7qTBMtjvjtpmqA7UZ581vTwPTFUF7LUqyw \r'
+    'WeJnXsPuBVLmUaUCcLw1ANNCrB286koRZW',
+    'WRj1p3J6oAeJNZEUesGNJu4ogWQdRtr6pB',
+    'WVS9TMpwVp9xpT9GSHx6pPjyzMgEsxXPhb',
+    'WREYo8pxWfEHygbH9V8bTcnWxEVe1v3iFd',
+    '\t \nWfyQSokTZwbRkA61FntFLtsPnPB5CGxvKX \r'
   ];
 
   // testnet p2sh
   var P2SHTestnet = [
-    '8tS9fgiv8XAmTXxWqJBv7zbeS4jzrGGwxT',
+    '8u8s4Jcjfeq7xq5dREMjDGuJgT8bRZASXg',
     '91gTi4kws9YV4QX5BLDhyiC6wYbknkk4JE',
     '8jrdZJFinmUy3qpQp4qqn2u6f2DkQyv4C4',
     '8xHGFfzk9r9Nby1aNs6AQhDLYhNNAPe3sq'
@@ -110,10 +110,10 @@ describe('Address', function() {
 
   //testnet valid
   var PKHTestnet = [
-    'ygvvbEYBpb3HpVR6LGpKNgfNNZ78jy8YhJ',
-    'yitSbZgHcy1quf4h4jobhw6SJ61KFgXiVC',
-    'yafMmecBxeDBf5Kfuz1PYvqJk58pEhUncx',
-    'yZKdLYCvDXa2kyQr8Tg3N6c3xeZoK7XDcj'
+    'yJoudt7yq6yRRP8g7Cqtfgg9fTVuLokxac',
+    'y6YViUzdk3fiQhssW6ZWk1gsBM45BbU4Qa',
+    'xwA3PixDV2A7RtNBYASKmGVGPGX1tnaLnF',
+    'xyBg5vdmTh3bevtN7BzYpyGZaGD9YQDn9b'
   ];
 
   describe('validation', function() {
