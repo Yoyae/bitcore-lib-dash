@@ -1,6 +1,6 @@
 {
   "name": "bitcore-lib-monoeci",
-  "version": "0.15.2",
+  "version": "0.15.3",
   "description": "A pure and powerful JavaScript Monoeci library.",
   "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
@@ -66,6 +66,10 @@
     {
       "name": "Alex Werner",
       "email": "alex@werner.fr"
+    },
+    {
+      "name": "Francois Gineste",
+      "email": "gingin.fr@gmail.com"
     }
   ],
   "keywords": [
@@ -106,7 +110,7 @@
     "x11-hash-js": "^1.0.0"
   },
   "devDependencies": {
-    "bitcore-build-monoeci": "yoyae/bitcore-build-monoeci",
+    "bitcore-build-monoeci": ">0.8.0",
     "browserify": "latest",
     "brfs": "^1.2.0",
     "chai": "^1.10.0",
