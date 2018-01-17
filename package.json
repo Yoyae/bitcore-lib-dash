@@ -1,6 +1,6 @@
 {
   "name": "bitcore-lib-monoeci",
-  "version": "0.15.3",
+  "version": "0.15.4",
   "description": "A pure and powerful JavaScript Monoeci library.",
   "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
