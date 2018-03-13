@@ -110,7 +110,7 @@
     "x11-hash-js": "^1.0.0"
   },
   "devDependencies": {
-    "bitcore-build-monoeci": ">=0.8.0",
+    "bitcore-build-monoeci": "yoyae/bitcore-build-monoeci",
     "browserify": "latest",
     "brfs": "^1.2.0",
     "chai": "^1.10.0",
